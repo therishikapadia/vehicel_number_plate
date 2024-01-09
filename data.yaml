@@ -1,0 +1,13 @@
+train: ./dataset/train/images
+val: ./dataset/valid/images
+test: ./dataset/test/images
+
+nc: 1
+names: ['licence']
+
+roboflow:
+  workspace: matheus-santos-almeida
+  project: car_license_plate
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/matheus-santos-almeida/car_license_plate/dataset/1
