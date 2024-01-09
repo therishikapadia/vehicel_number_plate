@@ -1,6 +1,6 @@
-train: https://github.com/therishikapadia/vehicel_number_plate/tree/main/dataset/train/images
-val: https://github.com/therishikapadia/vehicel_number_plate/tree/main/dataset/valid/images
-test: https://github.com/therishikapadia/vehicel_number_plate/tree/main/dataset/test/images
+train: https://raw.githubusercontent.com/therishikapadia/vehicel_number_plate/main/dataset/train/images
+val: https://raw.github.com/therishikapadia/vehicel_number_plate/tree/main/dataset/valid/images
+test: https://raw.github.com/therishikapadia/vehicel_number_plate/tree/main/dataset/test/images
 
 nc: 1
 names: ['licence']
