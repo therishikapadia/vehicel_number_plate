@@ -1,13 +1,11 @@
-train: https://raw.githubusercontent.com/therishikapadia/vehicel_number_plate/main/dataset/train/images
-val: https://raw.github.com/therishikapadia/vehicel_number_plate/tree/main/dataset/valid/images
-test: https://raw.github.com/therishikapadia/vehicel_number_plate/tree/main/dataset/test/images
-
-nc: 1
-names: ['licence']
-
-roboflow:
-  workspace: matheus-santos-almeida
-  project: car_license_plate
-  version: 1
-  license: Public Domain
-  url: https://universe.roboflow.com/matheus-santos-almeida/car_license_plate/dataset/1
+name: my_dataset
+type: image
+train:
+  - images: https://raw.githubusercontent.com/therishikapadia/vehicel_number_plate/main/dataset/train/images
+    labels: https://raw.githubusercontent.com/therishikapadia/vehicel_number_plate/main/dataset/train/labels
+validation:
+  - images: https://raw.githubusercontent.com/therishikapadia/vehicel_number_plate/main/dataset/valid/images
+    labels: https://raw.githubusercontent.com/therishikapadia/vehicel_number_plate/main/dataset/valid/labels
+test:
+  - images: https://raw.githubusercontent.com/therishikapadia/vehicel_number_plate/main/dataset/test/images
+    labels: https://raw.githubusercontent.com/therishikapadia/vehicel_number_plate/main/dataset/test/labels
